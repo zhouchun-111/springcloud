@@ -15,6 +15,7 @@ import org.springframework.context.annotation.Configuration;
 public class SpringCloudAppApplication {
 
 	public static void main(String[] args) {
+		System.out.println("》》》》》》》》");
 		SpringApplication.run(SpringCloudAppApplication.class, args);
 	}
 

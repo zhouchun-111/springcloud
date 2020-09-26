@@ -17,8 +17,6 @@ public class UserInfoController {
     @RequestMapping("/test")
     public String test(){
     	System.out.println("》》》》》》》》");
-        System.out.println("》》》》》》》》");
-        System.out.println("》》》》》》》》");
         return "姓名："+this.name+"    年龄："+this.age;
     }
 }
